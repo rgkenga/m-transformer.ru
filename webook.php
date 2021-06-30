@@ -1,4 +1,7 @@
 <?php
+@app.route('/', methods=['POST'])
+def test():
+    return 'test'
 header('Access-Control-Allow-Origin: *');
 $headers = "From: rgkenga@yandex.ru";
 /* замените электронную почту на действующую почту,  с которой вам будет приходить письмо  */
